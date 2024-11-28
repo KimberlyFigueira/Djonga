@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Parkinsans:wght@300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.h1Index{
+    font-family: 'Bokor', sans-serif;
+    font-size: 200px;
+}
+
+.albuns{
+    padding: 1.5cm;
+    display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 fotos por linha */
+            gap: 10px; /* Espaço entre as fotos */
+            justify-content: center;
+}
+
+img{
+    height: 200px;
+}
+
+h3{
+    color: aliceblue;
+    font-family: 'Parkinsans', sans-serif;
+    font-size: 25px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li{
+    padding: 10px;
+    display: inline-block;
+    margin-right: 80px;
+    font-size: 25px;
+    color: black;
+    font-family: 'Krona One', sans-serif;
+}
+
+li:hover{
+    font-size: 28px;
+    transition: 1.5s;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header{
+    background-color: rgb(107, 107, 107);
+}
+
+header:hover{
+    background-color: aliceblue;
+    transition: 1s;
+    border-bottom: 3px solid black;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+
+h1{
+    padding: 1.5cm;
+    font-family: 'Krona One', sans-serif;
+    text-align: center;
+    color: aliceblue;
+}
+
+body{
+    background-color: black;
+}
+
+h2{
+    max-width: 600px;
+    color: aliceblue;
+    padding-top: 1.5cm;
+    font-family: 'Krona One', sans-serif;
+}
+
+h4{
+    padding-bottom: 0.5cm;
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    max-width: 600px;
+    color: aliceblue;
+}
+
+footer{
+    margin-top: 25px;
+}
+
+.form-container {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-container input,
+.form-container textarea,
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-container textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.form-container button {
+    background-color: #444444;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: antiquewhite;
+    color: black;
+}
